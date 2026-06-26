@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #5f6f89;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #d6dde8;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 15px;
+  background: #2457ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #123fd1;
+}
+
+#status {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  display: none;
+  background: #eef7f0;
+}
+
+#result a {
+  color: #176b37;
+  font-weight: bold;
+}
