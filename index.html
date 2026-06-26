@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduAssist AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <h1>EduAssist AI</h1>
+      <p>SEND-inclusive personalised resource generator for teachers.</p>
+    </section>
+
+    <section class="card">
+      <h2>Generate Learning Resource</h2>
+
+      <label>Class</label>
+      <select id="classSelect">
+        <option>Loading classes...</option>
+      </select>
+
+      <label>Student</label>
+      <select id="studentSelect">
+        <option>Select a class first</option>
+      </select>
+
+      <label>Topic</label>
+      <input id="topic" placeholder="Example: Fractions">
+
+      <label>Learning Objective</label>
+      <textarea id="lessonObjective" placeholder="Students will compare and simplify fractions."></textarea>
+
+      <label>Resources Used</label>
+      <textarea id="resourcesUsed" placeholder="PowerPoint, worksheet, BBC Bitesize video"></textarea>
+
+      <label>Additional Notes</label>
+      <textarea id="additionalNotes" placeholder="Any extra teacher instructions"></textarea>
+
+      <button onclick="generateResource()">Generate Resource</button>
+
+      <div id="status"></div>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
